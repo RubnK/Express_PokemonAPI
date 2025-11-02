@@ -104,3 +104,6 @@ Le serveur écoute par défaut sur http://localhost:3000.
 2. Créez des pokémons en leur associant `attacksIds` (IDs renvoyés par `/attacks`).
 3. Créez deux dresseurs et assignez-leur des pokémons.
 4. Lancez POST `/combat/challenge` avec `{ "trainerAId":1, "trainerBId":2 }` pour voir un combat.
+
+# Licence
+Ce projet est distribué sous (licence MIT)[LICENSE].
