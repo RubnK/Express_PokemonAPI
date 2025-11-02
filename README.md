@@ -39,7 +39,7 @@ Auteur : [@RubnK](https://github.com/RubnK)
   /services     # fonctions d'accès à la BD (attacks/pokemons/trainers)
   db.ts         # configuration du pool Postgres
   server.ts     # serveur Express + routes
-db.sql          # schéma et données exemples (optionnel)
+db.sql          # schéma et données exemples
 package.json
 tsconfig.json
 README.md
@@ -81,8 +81,6 @@ PGPASSWORD=yourpassword
 PGDATABASE=pokemon_api
 PORT=3000
 ```
-
-Note : le projet fonctionne aussi sans base (lire ci‑dessus). Si vous utilisez PostgreSQL, `src/db.ts` lit ces variables.
 
 ## Installation & exécution
 
